@@ -10,8 +10,8 @@
   padding:1rem;
 }
 
-.container{
-  
+.fondo{
+  padding: 8rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -19,12 +19,20 @@
     height: 60px;
     width: 60px;
   }
+
+  .fondo{
+    padding: 4rem;
+  }
 } 
 
 @media screen and (max-width: 480px) {
   .logos{
     height: 40px;
     width: 40px;
+  }
+
+  .fondo{
+    padding: 2rem;
   }
 }
 

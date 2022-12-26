@@ -15,9 +15,8 @@ export default function Bio() {
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          padding: "8rem",
-          
         }}
+        className="fondo"
       >
         <Box sx={{ display: "flex", flexDirection: "column", margin: "1rem"}}>
           <Typography variant="h3" color="secondary">
